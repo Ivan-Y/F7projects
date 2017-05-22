@@ -45,7 +45,7 @@
 
 /* Private variables ---------------------------------------------------------*/
 UART_HandleTypeDef huart3;
-char readBuf[1];
+volatile char readBuf[1];
 __IO ITStatus newuartRXmsg = SET;
 /* USER CODE BEGIN PV */
 /* Private variables ---------------------------------------------------------*/
